@@ -1,0 +1,40 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+.main_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(120, 190, 192);
+  border-radius: 30px;
+  padding: 60px;
+}
+.title_name {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 20px;
+  color: rgb(120, 190, 192);
+}
+input {
+  border: 1px solid rgb(209, 151, 151);
+  width: 300px;
+  padding: 15px;
+  border-right: none;
+}
+.btn {
+  border: 1px solid rgb(209, 151, 151);
+  width: 100px;
+  padding: 15px;
+  border-left: none;
+  background-color: white;
+  font-size: 14px;
+  color: rgb(120, 190, 192);
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
